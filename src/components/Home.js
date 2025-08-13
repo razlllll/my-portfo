@@ -1,6 +1,7 @@
 'use client';
 import { motion } from "framer-motion";
 import react from "react";
+
 export default function Home() {
   return (
     <motion.section
@@ -28,7 +29,7 @@ export default function Home() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          Hi, I'm Razal
+          Hi, I&apos;m Razal
         </motion.h1>
         <motion.h1
           className="text-5xl md:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-teal-300 via-blue-400 to-purple-400"
@@ -45,8 +46,6 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.7 }}
         >
           I craft responsive, animated web experiences that feel smooth and intuitive. Alongside coding, I design impactful visuals in Canva and explore video editing to bring ideas to life.
-
-        
         </motion.p>
 
         <motion.div
