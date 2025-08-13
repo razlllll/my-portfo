@@ -19,9 +19,11 @@ export default function Contact() {
         transition={{ duration: 1, delay: 0.3 }}
         viewport={{ once: true }}
       >
-        <h3 className="text-4xl font-bold text-cyan-300 mb-6">Let&apos;s Connect</h3>
+        <h3 className="text-4xl font-bold text-cyan-300 mb-6">
+          Let&apos;s Connect
+        </h3>
         <p className="text-lg text-gray-300 mb-10">
-          Whether it's a collaboration, freelance project, or just a friendly hello—here&apos;s how you can reach me.
+          Whether it&apos;s a collaboration, freelance project, or just a friendly hello—here&apos;s how you can reach me.
         </p>
         <motion.div
           className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10 hover:bg-cyan-600/10 hover:shadow-xl transform hover:scale-105 transition duration-300 max-w-md mx-auto"
